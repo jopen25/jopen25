@@ -1,0 +1,76 @@
+/*@keyframes caminar1
+{
+    
+0%
+    {
+        background-position:2929px;
+    }
+    
+100%
+    {
+        background-position:180px;
+    }
+}
+.caballo{
+    
+	background: url("img/Horse-frames.jpg");
+	height: 121px;
+	width: 180px;
+    animation-name: caminar1;
+	animation-duration: 0.7s;
+	animation-iteration-count: infinite;
+	animation-timing-function: steps(15);
+}
+
+
+
+/*tipito animation*/
+
+@keyframes caminar2
+{
+    
+0%
+    {
+        background-position:2000px;
+    }
+    
+100%
+    {
+        background-position:0px;
+    }
+}
+@keyframes trasladar
+{
+    
+0%
+    {
+        transform: translateX(1200px);
+    }
+    
+100%
+    {
+        transform: translateX(0px);
+    }
+}
+
+.cartoon1{
+	background: url("img/steps3.png");
+    background-position: 0px;
+	height: 305px;
+	width: 199px;
+    animation-name: caminar2, trasladar;
+	animation-duration: 0.7s, 8s;
+	animation-iteration-count: infinite;
+	animation-timing-function: steps(10),linear;
+}
+body{
+   margin: 0;
+    padding: 0;
+    background-image: url(img/natureBG.png)
+}
+
+
+
+
+
+
